@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2A3A2F"
+        android:text="введите свои данные:"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введите свое имя"/>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введите свой возраст"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введиту номер телефона"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введите свой email"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="введите пароль"/>
+
+    <Button
+        android:id="@+id/but_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#8BC34A"
+        android:text="записать"
+        app:strokeWidth="3px" />
+
+    <TextView
+        android:id="@+id/text_about_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectedWeekBackgroundColor="#CDDC39" />
+
+
+</LinearLayout>
